@@ -1,0 +1,311 @@
+{
+    "stageIndex": 6,
+    "boardBlocks": [
+        {
+            "x": 0,
+            "y": 0,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "colorType": [],
+            "dataType": []
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "colorType": [],
+            "dataType": []
+        }
+    ],
+    "playingBlocks": [
+        {
+            "x": 0,
+            "y": 0,
+            "center": {
+                "x": 3,
+                "y": 3
+            },
+            "uniqueIndex": 1,
+            "colorType": 4,
+            "shapes": [
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 1
+                    }
+                },
+                {
+                    "offset": {
+                        "x": -1,
+                        "y": 1
+                    }
+                },
+                {
+                    "offset": {
+                        "x": -1,
+                        "y": 0
+                    }
+                }
+            ],
+            "gimmicks": []
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "center": {
+                "x": 1,
+                "y": 1
+            },
+            "uniqueIndex": 2,
+            "colorType": 5,
+            "shapes": [
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 1,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 2,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 2,
+                        "y": -1
+                    }
+                }
+            ],
+            "gimmicks": []
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "center": {
+                "x": 3,
+                "y": 2
+            },
+            "uniqueIndex": 3,
+            "colorType": 3,
+            "shapes": [
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 1,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 1,
+                        "y": 1
+                    }
+                }
+            ],
+            "gimmicks": []
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "uniqueIndex": 4,
+            "colorType": 8,
+            "shapes": [
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 1
+                    }
+                },
+                {
+                    "offset": {
+                        "x": 0,
+                        "y": 2
+                    }
+                }
+            ],
+            "gimmicks": []
+        }
+    ],
+    "Walls": [
+        {
+            "x": 1,
+            "y": 4,
+            "WallDirection": 1,
+            "length": 1,
+            "wallColor": 8,
+            "wallGimmickType": 0
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "WallDirection": 1,
+            "length": 2,
+            "wallColor": 5,
+            "wallGimmickType": 0
+        }
+    ]
+}

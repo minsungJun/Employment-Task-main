@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7371455614075440084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7559336714364998449}
+  - component: {fileID: 5681972043835019612}
+  - component: {fileID: 1835377699212593294}
+  - component: {fileID: 1378562843963766483}
+  m_Layer: 9
+  m_Name: '[GameBoard]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7559336714364998449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371455614075440084}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5681972043835019612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371455614075440084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc73c81ab5bf4e17913e07c6011d5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _model: {fileID: 1835377699212593294}
+  _view: {fileID: 1378562843963766483}
+--- !u!114 &1835377699212593294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371455614075440084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d2e046bf2164a4db230d55b87a532c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StageDatas:
+  - {fileID: 11400000, guid: ed3115cbf9b924db1b50fa0673025536, type: 2}
+  - {fileID: 11400000, guid: a03a08af939664777995f970a9621f90, type: 2}
+  - {fileID: 11400000, guid: e828b18c6036540ce96e1de8bce974ed, type: 2}
+  - {fileID: 11400000, guid: 3f024953c036d4b54a8e4216eb5f2635, type: 2}
+  - {fileID: 11400000, guid: 00e70209a1432476dbbbd3505c80108a, type: 2}
+  - {fileID: 11400000, guid: 5064399ffad907a40a862b78f468ac92, type: 2}
+  boardWidth: 0
+  boardHeight: 0
+  nowStageIndex: 0
+--- !u!114 &1378562843963766483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371455614075440084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318b670adf8eae44c9753e2f71ed4470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoardBlockPrefab: {fileID: 4388471490772335809, guid: 02ecc11afb8d5455ca8cd64d0e706e52,
+    type: 3}
+  BlockGroupPrefab: {fileID: 4246495902434896490, guid: 213c0d67944d44e89822c258b3000264,
+    type: 3}
+  BlockPrefab: {fileID: 3816581106366051946, guid: f663cb86b09084a0d98668b5483cc849,
+    type: 3}
+  BlockMaterials:
+  - {fileID: 2100000, guid: c80dd3717919b304f94b1178afb19b9f, type: 2}
+  - {fileID: 2100000, guid: ba07ec26b6400e443b9287204b473b79, type: 2}
+  - {fileID: 2100000, guid: 027fb7e82052f7f4eb35958101d4de14, type: 2}
+  - {fileID: 2100000, guid: 9a9a4fef4fc166342901a58eaf8ab2a4, type: 2}
+  - {fileID: 2100000, guid: 3489af5dd34b98a46a6aaf3c2863e523, type: 2}
+  - {fileID: 2100000, guid: 4b1c0b9038f3d3c439a0cb15173dc2d2, type: 2}
+  - {fileID: 2100000, guid: 33d3f21ff4fb1544482a59880b5810d5, type: 2}
+  - {fileID: 2100000, guid: a4ca989e9729d0043aca1a1a0ac4f068, type: 2}
+  - {fileID: 2100000, guid: b8d122da05dd72947a3c90065818df5c, type: 2}
+  TestBlockMaterials:
+  - {fileID: 2100000, guid: 9539a791e2d84f241b76730496431b37, type: 2}
+  - {fileID: 2100000, guid: 8513d8cac09c04f37b43b99fd7b1ebe4, type: 2}
+  - {fileID: 2100000, guid: ffb36e49712de45acbea5e0fb9c69dee, type: 2}
+  - {fileID: 2100000, guid: 8c9ab924fabac4912b2059451c5e3213, type: 2}
+  - {fileID: 2100000, guid: 85ba27da62d4542839d8ba809ba73a8d, type: 2}
+  - {fileID: 2100000, guid: 68628aaa39e03457a82d97f7ff100d38, type: 2}
+  - {fileID: 2100000, guid: df796f81d98414506beda08861c78d83, type: 2}
+  - {fileID: 2100000, guid: 3911ad6b37d8e4f01ac79f81fe095ca5, type: 2}
+  - {fileID: 2100000, guid: 16ba0ebe467b6440a9dfb0b23ad0da42, type: 2}
+  WallPrefabs:
+  - {fileID: 229845866602596133, guid: 9fdcf3056cbfd4c50872aff27fecc5ef, type: 3}
+  - {fileID: 735630083384091489, guid: 661e448fefef74bcc851eb44b30f9e34, type: 3}
+  - {fileID: 5142292172560998811, guid: 70d160915161f41c987d5a5a96a994dc, type: 3}
+  - {fileID: 1572862852100298902, guid: 7c827d0bfcbee4eda9200dcecb7c395f, type: 3}
+  - {fileID: 9211508888067625810, guid: 4152bee713a374547afee7f13f6e5277, type: 3}
+  - {fileID: 3433197184454345110, guid: a5f422c383a7148dfaa2b19306485743, type: 3}
+  WallMaterials:
+  - {fileID: 2100000, guid: fa32569ee2344478ba53aef3981402dd, type: 2}
+  - {fileID: 2100000, guid: 91a2fbf06960544d08ba27a654cb20e8, type: 2}
+  - {fileID: 2100000, guid: d54cd8a83de054915b5f7b0920490131, type: 2}
+  - {fileID: 2100000, guid: 7c15fc6181f4e4e8cb01fd869f73955e, type: 2}
+  - {fileID: 2100000, guid: 7758f52382c8c4b328fab9461a5703fc, type: 2}
+  - {fileID: 2100000, guid: e0dda4fe354bb4bf89eee8a3ed645739, type: 2}
+  - {fileID: 2100000, guid: dff1150a67d644beebb150a962f6be81, type: 2}
+  - {fileID: 2100000, guid: 683cef84734b34ff5b1e565165086156, type: 2}
+  - {fileID: 2100000, guid: b86a90473367d49808b0fad01639f910, type: 2}
+  SpawnerTr: {fileID: 0}
+  QuadTr: {fileID: 0}
+  DestroyParticlePrefab: {fileID: 8198912971446300596, guid: ec90d8fe09a08634eb07d7df50754492,
+    type: 3}
+  particleSpawners: []
+  walls: []
+  QuadPrefab: {fileID: 1321952258069561797, guid: a31c0f0e43e384b3da3b0b1f8aaa9876,
+    type: 3}
+  GameBoard: {fileID: 7371455614075440084}

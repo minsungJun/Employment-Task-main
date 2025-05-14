@@ -1,0 +1,37 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="BoradSizeUI" style="flex-grow: 1; position: absolute; height: 154px; width: 299px; top: 0; left: 869px; background-color: rgb(152, 152, 152);">
+        <ui:DropdownField label="Width" name="WidthDropDown" index="4" choices="1,2,3,4,5,6,7,8" style="position: absolute; width: 291px; top: 37px; left: 0;" />
+        <ui:DropdownField label="Height" name="HeightDropDown" index="4" choices="1,2,3,4,5,6,7,8" style="position: absolute; top: 75px; left: 1px; width: 291px;" />
+        <ui:Button text="Generate" selectable="true" name="GenerateButton" double-click-selects-word="false" style="position: absolute; top: 116px; left: 1px; height: 27px; width: 287px;" />
+        <ui:Label text="Board" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="WallCustomUI" style="flex-grow: 1; width: 302px; align-items: stretch; flex-direction: column-reverse; align-self: flex-start; left: 868px; top: 161px; align-content: flex-start; position: absolute; height: 325px; background-color: rgb(255, 138, 138);">
+        <ui:DropdownField label="Gimmick" name="Gimmickdrop" choices="None" index="0" />
+        <ui:DropdownField label="Length" name="Lengthdrop" choices="1,2,3,4,5,6,7,8" index="0" />
+        <ui:DropdownField label="Color" name="Colordrop" choices="None,Red,Orange,Yellow,Gray,Purple,Beige,Blue,Green" index="0" />
+        <ui:DropdownField label="Direction" name="Directiondrop" choices="None,Single_Up,Single_Down,Single_Left,Single_Right,Left_Up,Left_Down,Right_Up,Right_Down,Open_Up,Open_Down,Open_Left,Open_Right" index="0" />
+        <ui:DropdownField label="Y" name="Ydrop" />
+        <ui:DropdownField label="X" name="Xdrop" />
+        <ui:Button text="Generate" name="Wallgenerate" />
+        <ui:Label text="Wall Generate" style="-unity-text-align: upper-center; white-space: normal; left: auto; top: 0; position: absolute; width: 295px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="PlayingBlockUI" style="flex-grow: 1; position: absolute; height: 246px; width: 255px; top: 3px; background-color: rgb(150, 150, 255); left: -1px;">
+        <ui:Label text="Playing Block" style="-unity-text-align: upper-center;" />
+        <ui:DropdownField label="X" name="PBxdrop" />
+        <ui:DropdownField label="Y" name="PBydrop" />
+        <ui:DropdownField label="Color" name="PBcolor" choices="None,Red,Orange,Yellow,Gray,Purple,Beige,Blue,Green" index="0" />
+        <ui:DropdownField label="Gimmick" name="PBgimmick" choices="None" index="0" />
+        <ui:Button text="Generate" name="PBgenerate" />
+    </ui:VisualElement>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; position: absolute; height: 256px; width: 256px; top: 285px; -unity-background-image-tint-color: rgb(0, 0, 255); background-color: rgb(172, 255, 155); left: -1px;">
+        <ui:Label text="Expand Playing Block" style="-unity-text-align: upper-center;" />
+        <ui:DropdownField label="uniqueindex" name="UniqueIndex" style="height: 32px;" />
+        <ui:Button text="↑" selectable="true" name="Up" style="position: absolute; top: 90px; left: 90px;" />
+        <ui:Button text="←" name="Left" style="position: absolute; left: 40px; top: 140px;" />
+        <ui:Button text="→" name="Right" style="position: absolute; top: 140px; left: 140px;" />
+        <ui:Button text="↓" name="Down" style="position: absolute; top: 190px; left: 90px;" />
+    </ui:VisualElement>
+    <ui:Button text="RESET" name="RESET" style="position: absolute; top: 501px; left: 1067px; width: 90px;" />
+    <ui:Button text="Export" name="Export" style="position: absolute; top: 501px; left: 980px; height: 39px;" />
+    <ui:Button text="Import" name="Import" double-click-selects-word="false" style="position: absolute; top: 501px; left: 889px;" />
+</ui:UXML>
